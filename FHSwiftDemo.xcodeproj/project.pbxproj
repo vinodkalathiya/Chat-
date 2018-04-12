@@ -8,12 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		D93A9D171F32EE0C0050DEAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A9D161F32EE0C0050DEAF /* AppDelegate.swift */; };
-		D93A9D191F32EE0C0050DEAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A9D181F32EE0C0050DEAF /* ViewController.swift */; };
 		D93A9D1C1F32EE0C0050DEAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93A9D1A1F32EE0C0050DEAF /* Main.storyboard */; };
 		D93A9D1E1F32EE0C0050DEAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93A9D1D1F32EE0C0050DEAF /* Assets.xcassets */; };
 		D93A9D211F32EE0C0050DEAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93A9D1F1F32EE0C0050DEAF /* LaunchScreen.storyboard */; };
 		D93A9D2C1F32EE0D0050DEAF /* FHSwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A9D2B1F32EE0D0050DEAF /* FHSwiftDemoTests.swift */; };
 		D93A9D371F32EE0D0050DEAF /* FHSwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A9D361F32EE0D0050DEAF /* FHSwiftDemoUITests.swift */; };
+		D93A9D471F32EE5D0050DEAF /* MainListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A9D451F32EE5D0050DEAF /* MainListCell.swift */; };
+		D93A9D481F32EE5D0050DEAF /* MainListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D93A9D461F32EE5D0050DEAF /* MainListCell.xib */; };
+		D93A9D4A1F32EEE50050DEAF /* MainListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A9D491F32EEE50050DEAF /* MainListViewController.swift */; };
+		D93A9D521F32EFA20050DEAF /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A9D4C1F32EFA20050DEAF /* ChatCell.swift */; };
+		D93A9D531F32EFA20050DEAF /* ChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D93A9D4D1F32EFA20050DEAF /* ChatCell.xib */; };
+		D93A9D541F32EFA20050DEAF /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A9D4E1F32EFA20050DEAF /* ChatViewController.swift */; };
+		D93A9D551F32EFA20050DEAF /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D93A9D4F1F32EFA20050DEAF /* ChatViewController.xib */; };
+		D93A9D561F32EFA20050DEAF /* ic_receiver.9.png in Resources */ = {isa = PBXBuildFile; fileRef = D93A9D501F32EFA20050DEAF /* ic_receiver.9.png */; };
+		D93A9D571F32EFA20050DEAF /* ic_sender.9.png in Resources */ = {isa = PBXBuildFile; fileRef = D93A9D511F32EFA20050DEAF /* ic_sender.9.png */; };
+		D93A9D591F32EFB30050DEAF /* MessageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A9D581F32EFB30050DEAF /* MessageInfo.swift */; };
+		D93A9D5F1F32EFF70050DEAF /* SWNinePatchImageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D93A9D5C1F32EFF70050DEAF /* SWNinePatchImageFactory.m */; };
+		D93A9D601F32EFF70050DEAF /* SWNinePatchImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D93A9D5E1F32EFF70050DEAF /* SWNinePatchImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +47,6 @@
 /* Begin PBXFileReference section */
 		D93A9D131F32EE0C0050DEAF /* FHSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FHSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D93A9D161F32EE0C0050DEAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D93A9D181F32EE0C0050DEAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D93A9D1B1F32EE0C0050DEAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D93A9D1D1F32EE0C0050DEAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D93A9D201F32EE0C0050DEAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +57,21 @@
 		D93A9D321F32EE0D0050DEAF /* FHSwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FHSwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D93A9D361F32EE0D0050DEAF /* FHSwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHSwiftDemoUITests.swift; sourceTree = "<group>"; };
 		D93A9D381F32EE0D0050DEAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D93A9D451F32EE5D0050DEAF /* MainListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainListCell.swift; sourceTree = "<group>"; };
+		D93A9D461F32EE5D0050DEAF /* MainListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainListCell.xib; sourceTree = "<group>"; };
+		D93A9D491F32EEE50050DEAF /* MainListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainListViewController.swift; sourceTree = "<group>"; };
+		D93A9D4C1F32EFA20050DEAF /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		D93A9D4D1F32EFA20050DEAF /* ChatCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatCell.xib; sourceTree = "<group>"; };
+		D93A9D4E1F32EFA20050DEAF /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		D93A9D4F1F32EFA20050DEAF /* ChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
+		D93A9D501F32EFA20050DEAF /* ic_receiver.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_receiver.9.png; sourceTree = "<group>"; };
+		D93A9D511F32EFA20050DEAF /* ic_sender.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_sender.9.png; sourceTree = "<group>"; };
+		D93A9D581F32EFB30050DEAF /* MessageInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageInfo.swift; sourceTree = "<group>"; };
+		D93A9D5B1F32EFF70050DEAF /* SWNinePatchImageFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWNinePatchImageFactory.h; sourceTree = "<group>"; };
+		D93A9D5C1F32EFF70050DEAF /* SWNinePatchImageFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWNinePatchImageFactory.m; sourceTree = "<group>"; };
+		D93A9D5D1F32EFF70050DEAF /* SWNinePatchImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWNinePatchImageView.h; sourceTree = "<group>"; };
+		D93A9D5E1F32EFF70050DEAF /* SWNinePatchImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWNinePatchImageView.m; sourceTree = "<group>"; };
+		D93A9D611F32F0FD0050DEAF /* FHSwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FHSwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +122,14 @@
 		D93A9D151F32EE0C0050DEAF /* FHSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D93A9D4B1F32EF750050DEAF /* ChatDemo */,
+				D93A9D441F32EE3B0050DEAF /* TableView */,
 				D93A9D161F32EE0C0050DEAF /* AppDelegate.swift */,
-				D93A9D181F32EE0C0050DEAF /* ViewController.swift */,
 				D93A9D1A1F32EE0C0050DEAF /* Main.storyboard */,
 				D93A9D1D1F32EE0C0050DEAF /* Assets.xcassets */,
 				D93A9D1F1F32EE0C0050DEAF /* LaunchScreen.storyboard */,
 				D93A9D221F32EE0C0050DEAF /* Info.plist */,
+				D93A9D611F32F0FD0050DEAF /* FHSwiftDemo-Bridging-Header.h */,
 			);
 			path = FHSwiftDemo;
 			sourceTree = "<group>";
@@ -123,6 +150,42 @@
 				D93A9D381F32EE0D0050DEAF /* Info.plist */,
 			);
 			path = FHSwiftDemoUITests;
+			sourceTree = "<group>";
+		};
+		D93A9D441F32EE3B0050DEAF /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				D93A9D451F32EE5D0050DEAF /* MainListCell.swift */,
+				D93A9D461F32EE5D0050DEAF /* MainListCell.xib */,
+				D93A9D491F32EEE50050DEAF /* MainListViewController.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		D93A9D4B1F32EF750050DEAF /* ChatDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D93A9D5A1F32EFF70050DEAF /* SWNinePatchImageFactory */,
+				D93A9D581F32EFB30050DEAF /* MessageInfo.swift */,
+				D93A9D4C1F32EFA20050DEAF /* ChatCell.swift */,
+				D93A9D4D1F32EFA20050DEAF /* ChatCell.xib */,
+				D93A9D4E1F32EFA20050DEAF /* ChatViewController.swift */,
+				D93A9D4F1F32EFA20050DEAF /* ChatViewController.xib */,
+				D93A9D501F32EFA20050DEAF /* ic_receiver.9.png */,
+				D93A9D511F32EFA20050DEAF /* ic_sender.9.png */,
+			);
+			path = ChatDemo;
+			sourceTree = "<group>";
+		};
+		D93A9D5A1F32EFF70050DEAF /* SWNinePatchImageFactory */ = {
+			isa = PBXGroup;
+			children = (
+				D93A9D5B1F32EFF70050DEAF /* SWNinePatchImageFactory.h */,
+				D93A9D5C1F32EFF70050DEAF /* SWNinePatchImageFactory.m */,
+				D93A9D5D1F32EFF70050DEAF /* SWNinePatchImageView.h */,
+				D93A9D5E1F32EFF70050DEAF /* SWNinePatchImageView.m */,
+			);
+			path = SWNinePatchImageFactory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +299,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D93A9D211F32EE0C0050DEAF /* LaunchScreen.storyboard in Resources */,
+				D93A9D561F32EFA20050DEAF /* ic_receiver.9.png in Resources */,
 				D93A9D1E1F32EE0C0050DEAF /* Assets.xcassets in Resources */,
+				D93A9D551F32EFA20050DEAF /* ChatViewController.xib in Resources */,
+				D93A9D531F32EFA20050DEAF /* ChatCell.xib in Resources */,
+				D93A9D571F32EFA20050DEAF /* ic_sender.9.png in Resources */,
+				D93A9D481F32EE5D0050DEAF /* MainListCell.xib in Resources */,
 				D93A9D1C1F32EE0C0050DEAF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,8 +330,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D93A9D191F32EE0C0050DEAF /* ViewController.swift in Sources */,
+				D93A9D4A1F32EEE50050DEAF /* MainListViewController.swift in Sources */,
+				D93A9D521F32EFA20050DEAF /* ChatCell.swift in Sources */,
+				D93A9D471F32EE5D0050DEAF /* MainListCell.swift in Sources */,
+				D93A9D601F32EFF70050DEAF /* SWNinePatchImageView.m in Sources */,
+				D93A9D541F32EFA20050DEAF /* ChatViewController.swift in Sources */,
+				D93A9D5F1F32EFF70050DEAF /* SWNinePatchImageFactory.m in Sources */,
 				D93A9D171F32EE0C0050DEAF /* AppDelegate.swift in Sources */,
+				D93A9D591F32EFB30050DEAF /* MessageInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +492,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sensussoft.FHSwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FHSwiftDemo/FHSwiftDemo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -431,6 +506,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sensussoft.FHSwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FHSwiftDemo/FHSwiftDemo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

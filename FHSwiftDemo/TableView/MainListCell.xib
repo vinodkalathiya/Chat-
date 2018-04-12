@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-UI-Display-Regular.otf">
+            <string>SFUIDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="55" id="0XR-AH-NdK" customClass="MainListCell" customModule="FHSwiftDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0XR-AH-NdK" id="A4S-Tt-2v7">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="54"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K54-df-Wqj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="54.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jyn-O6-kic">
+                                <rect key="frame" x="20" y="53.5" width="280" height="0.5"/>
+                                <color key="backgroundColor" red="0.25490196079999999" green="0.37254901959999998" blue="0.44705882349999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="NWc-Q6-pjc"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XUl-fE-9XN">
+                                <rect key="frame" x="20" y="0.0" width="280" height="53.5"/>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="16"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jyn-O6-kic" firstAttribute="trailing" secondItem="XUl-fE-9XN" secondAttribute="trailing" id="8qW-yM-2Td"/>
+                            <constraint firstItem="XUl-fE-9XN" firstAttribute="top" secondItem="K54-df-Wqj" secondAttribute="top" id="ENp-ng-RmN"/>
+                            <constraint firstItem="jyn-O6-kic" firstAttribute="top" secondItem="XUl-fE-9XN" secondAttribute="bottom" id="Ien-qz-nxi"/>
+                            <constraint firstItem="XUl-fE-9XN" firstAttribute="leading" secondItem="K54-df-Wqj" secondAttribute="leading" constant="20" id="Uee-gY-XcJ"/>
+                            <constraint firstItem="jyn-O6-kic" firstAttribute="leading" secondItem="XUl-fE-9XN" secondAttribute="leading" id="VW6-Bx-cwO"/>
+                            <constraint firstAttribute="bottom" secondItem="jyn-O6-kic" secondAttribute="bottom" id="sSS-6R-10g"/>
+                            <constraint firstAttribute="trailing" secondItem="XUl-fE-9XN" secondAttribute="trailing" constant="20" id="yDt-gg-Se9"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="K54-df-Wqj" secondAttribute="trailing" id="I1f-As-EfY"/>
+                    <constraint firstItem="K54-df-Wqj" firstAttribute="leading" secondItem="A4S-Tt-2v7" secondAttribute="leading" id="f0W-7s-rxa"/>
+                    <constraint firstItem="K54-df-Wqj" firstAttribute="top" secondItem="A4S-Tt-2v7" secondAttribute="top" id="pYE-J3-bZz"/>
+                    <constraint firstAttribute="bottom" secondItem="K54-df-Wqj" secondAttribute="bottom" id="vqf-Fn-Hr9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblName" destination="XUl-fE-9XN" id="Ifa-hF-37c"/>
+                <outlet property="viewSeperator" destination="jyn-O6-kic" id="3FG-RZ-1vR"/>
+            </connections>
+            <point key="canvasLocation" x="26" y="56"/>
+        </tableViewCell>
+    </objects>
+</document>
